@@ -1,0 +1,20 @@
+# Core dependencies for agentic AI
+langchain==0.3.0  # Framework for building AI agents with LLMs
+openai==1.40.0    # OpenAI API for LLM access (e.g., GPT-4)
+crewai==0.51.1    # Multi-agent orchestration framework
+python-dotenv==1.0.1  # For loading environment variables (e.g., API keys)
+
+# Data processing and utilities
+requests==2.32.3  # For API calls or web data fetching
+pandas==2.2.2     # Data manipulation
+numpy==1.26.4     # Numerical operations
+
+# Reinforcement learning or simulation (optional)
+gym==0.26.2       # OpenAI Gym for reinforcement learning environments
+
+# Optional: Web interaction or deployment
+fastapi==0.115.0  # For deploying agent APIs
+uvicorn==0.30.6   # ASGI server for FastAPI
+
+# Optional: PDF processing for document-based agents
+PyMuPDF==1.24.10  # For extracting text from PDFs
